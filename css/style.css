@@ -282,6 +282,10 @@ p {
   margin: -1px;
 }
 
+.form-field {
+  margin-bottom: 28px;
+}
+
 /* Feature-list */
 .feature-list {
   display: flex;

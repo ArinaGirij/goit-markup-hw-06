@@ -59,30 +59,39 @@
           <button data-modal-open type="button" class="button-index">Заказать услугу</button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <div role="group">
-               <label for="name">Имя</label>
-               <input type="name" name="name" id="name"/> 
-
-               <label for="phone">Телефон</label>
-               <input type="phone" name="phone" id="phone"/> 
-
-               <label for="mail">Почта</label>
-               <input type="email" name="mail" id="mail"/> 
-
-               <label for="comment">Комментарий</label>
-               <textarea name="comment" id="comment" cols="" rows=""></textarea> 
-
-               <input type="checkbox" name="agreement" value="agreement" id="agreement" /> 
-               <label for="agreement">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-
-               <button type="submit">Оставить заявку</button>
-               
-              </div>
             <button class="button-modal" data-modal-close>
             <svg class="button-close">
               <use href="./images/symbol-defs.svg#icon-close-black"></use>
             </svg>
             </button>
+            <form>
+                 <div class="form-field">
+               <label for="name">Имя</label>
+               <div>
+               <input type="name" name="name" id="name" autofocus/> 
+               </div>
+
+               <div class="form-field">
+               <label for="phone">Телефон</label>
+               <input type="phone" name="phone" id="phone"/> 
+               </div>
+
+               <div class="form-field">
+                 <label for="mail">Почта</label>
+               <input type="email" name="mail" id="mail"/> 
+               </div>
+
+               <div class="form-field">
+                 <label for="comment">Комментарий</label>
+               <textarea name="comment" id="comment" cols="" rows="" placeholder="Комментарий"></textarea> 
+               </div>
+
+               <input type="checkbox" name="agreement" value="agreement" id="agreement" /> 
+               <label for="agreement">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+
+               <button type="submit">Оставить заявку</button>
+              </form>
+              </div>
             </div>
 
           </div>
