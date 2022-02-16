@@ -66,30 +66,47 @@
             </button>
             <form>
                  <div class="form-field">
+                   <p class="paragraph-modal">Оставьте свои данные, мы вам перезвоним</p>
                <label for="name">Имя</label>
-               <div>
-               <input type="name" name="name" id="name" autofocus/> 
+               <div class="aaa">
+                 <svg class="name-modal">
+                   <use href="./images/symbol-defs.svg#icon-name"></use>
+                 </svg>
+               <input class="modal-input" type="name" name="name" id="name" autofocus/> 
+               </div>
                </div>
 
                <div class="form-field">
                <label for="phone">Телефон</label>
-               <input type="phone" name="phone" id="phone"/> 
+               <div class="aaa">
+                  <svg class="mobile-modal">
+                     <use href="./images/symbol-defs.svg#icon-mobile"></use>
+                   </svg>
+               <input  class="modal-input" type="phone" name="phone" id="phone"/> 
+               </div>
                </div>
 
                <div class="form-field">
                  <label for="mail">Почта</label>
-               <input type="email" name="mail" id="mail"/> 
+                 <div class="aaa">
+                   <svg class="email-modal">
+                     <use href="./images/symbol-defs.svg#icon-email"></use>
+                   </svg>
+               <input class="modal-input" type="email" name="mail" id="mail"/> 
+               </div>
                </div>
 
                <div class="form-field">
                  <label for="comment">Комментарий</label>
+                 <div class="aaa">
                <textarea name="comment" id="comment" cols="" rows="" placeholder="Комментарий"></textarea> 
+               </div>
                </div>
 
                <input type="checkbox" name="agreement" value="agreement" id="agreement" /> 
                <label for="agreement">Соглашаюсь с рассылкой и принимаю Условия договора</label>
 
-               <button type="submit">Оставить заявку</button>
+               <button class="modal-button" type="submit" class="">Отправить</button>
               </form>
               </div>
             </div>
