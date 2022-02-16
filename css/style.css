@@ -372,10 +372,25 @@ p {
   fill: var(--bgc);
 }
 
+.checkbox-modal {
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.checkbox-span {
+}
 .form-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+
+  width: 448px;
+  height: 120px;
 }
 
 .modal-button {
