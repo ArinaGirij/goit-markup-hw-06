@@ -313,7 +313,7 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: start;
-
+  color: var(--primary-text-color);
   flex-direction: column;
   margin-bottom: 10px;
 }
@@ -328,6 +328,7 @@ p {
 .paragraph-modal {
   padding-bottom: 12px;
 
+  color: var(--title-text-color);
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
