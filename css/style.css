@@ -313,7 +313,7 @@ p {
   display: flex;
 
   flex-direction: column;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .form-field input {
@@ -382,8 +382,6 @@ p {
   color: var(--primary-text-color);
 }
 
-.checkbox-span {
-}
 .form-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1030,4 +1028,43 @@ img {
 .adress:hover,
 .adress:focus {
   color: #2196f3;
+}
+
+.follow-modal {
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-form-field {
+  margin-left: 93px;
+}
+.footer-aaa {
+}
+
+.footer-form-label {
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-modal-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background: #2f303a;
 }
