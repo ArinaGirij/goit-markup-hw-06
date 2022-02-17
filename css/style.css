@@ -311,6 +311,8 @@ p {
 
 .form-field {
   display: flex;
+  align-items: flex-start;
+  justify-content: start;
 
   flex-direction: column;
   margin-bottom: 10px;
@@ -324,6 +326,8 @@ p {
 }
 
 .paragraph-modal {
+  padding-bottom: 12px;
+
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
@@ -399,7 +403,7 @@ p {
   line-height: 30px;
   font-weight: bold;
   color: white;
-  background: var(--bgc);
+  background-color: var(--bgc);
   margin: 0 auto;
   margin-top: 30px;
   padding-top: 10px;
@@ -408,6 +412,8 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover {
@@ -1042,12 +1048,15 @@ img {
 }
 
 .footer-form-field {
+  display: inline;
   margin-left: 93px;
 }
 .footer-aaa {
+  position: relative;
 }
 
 .footer-form-label {
+  position: absolute;
   font-size: 16px;
   line-height: 20px;
   /* identical to box height, or 125% */
@@ -1067,4 +1076,32 @@ img {
   border-radius: 4px;
 
   background: #2f303a;
+}
+
+.footer-submit {
+  margin-left: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-submit:hover {
+  background-color: #188ce8;
+}
+.footer-send {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
 }
