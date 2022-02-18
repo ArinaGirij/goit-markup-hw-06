@@ -1037,7 +1037,13 @@ img {
   color: #2196f3;
 }
 
-.follow-modal {
+.footer-form-field {
+  display: inline;
+  margin-left: 93px;
+  margin-right: 0px;
+}
+
+.footer-follow-modal {
   padding-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -1046,14 +1052,6 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
-}
-
-.footer-form-field {
-  display: inline;
-  margin-left: 93px;
-}
-.footer-aaa {
-  position: relative;
 }
 
 .footer-form-label {
