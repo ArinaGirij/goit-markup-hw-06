@@ -117,7 +117,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
   color: var(--bgc);
@@ -152,7 +152,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav-link:hover,
@@ -630,7 +630,7 @@ img {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link:hover,
@@ -644,7 +644,7 @@ img {
   height: 20px;
   fill: currentColor;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-social-media:hover {
@@ -685,7 +685,7 @@ img {
   justify-content: center;
   color: #afb1b8;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-clients {
@@ -695,7 +695,7 @@ img {
   justify-content: center;
   fill: currentColor;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-links:hover,
@@ -723,7 +723,7 @@ img {
   border: 0;
   border-radius: 4px;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgroud-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-index:hover,
 .button-index:focus {
@@ -807,7 +807,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.02em;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-div {
@@ -824,7 +824,7 @@ img {
   left: 0;
   width: 370px;
   height: 294px;
-  transform: translateY(100%);
+  transform: translateY(101%);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -861,7 +861,7 @@ img {
   color: #fff;
   background-color: var(--bgc);
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
