@@ -387,6 +387,64 @@ p {
   color: var(--primary-text-color);
 }
 
+.conditions {
+  margin-bottom: 30px;
+}
+
+.conditions-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+
+.conditions-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.conditions-input:checked + .conditions-svg-border .checkbox-accept {
+  display: block;
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.conditions-input:checked + .conditions-svg-border .checkbox-border {
+  display: none;
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.conditions-svg-border {
+  cursor: pointer;
+}
+
+.conditions-link {
+  color: var(--bgc);
+}
+.conditions-link::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--bgc);
+}
+
+.checkbox-accept {
+  display: none;
+}
+
 .form-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
