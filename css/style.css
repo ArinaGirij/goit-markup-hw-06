@@ -365,6 +365,25 @@ p {
   letter-spacing: 0.01em;
 }
 
+.form-field-comment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  color: var(--primary-text-color);
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field-comment label {
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+}
+
 .modal-input {
   padding-left: 40px;
   outline: none;
@@ -450,7 +469,7 @@ p {
 textarea {
   padding: 16px 12px;
 }
-.form-field textarea {
+.form-field-comment textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
