@@ -978,6 +978,10 @@ img {
   align-items: baseline;
 }
 
+.footer-webstudio {
+  flex-grow: 1;
+}
+
 .footer-title {
   display: block;
 
