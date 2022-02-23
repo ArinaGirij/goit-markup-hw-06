@@ -337,6 +337,7 @@ p {
   height: 40px;
   margin: 0;
   padding: 15px 0;
+  padding-left: 42px;
 }
 
 .paragraph-modal {
@@ -430,7 +431,14 @@ p {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  color: var(--primary-text-color);
 }
+
+.conditions-input:focus {
+  color: var(--bgc);
+}
+
 .conditions-input:checked + .conditions-svg-border .checkbox-accept {
   display: block;
 
@@ -447,6 +455,12 @@ p {
 
 .conditions-svg-border {
   cursor: pointer;
+
+  color: var(--primary-text-color);
+}
+
+.conditions-svg-border:focus {
+  color: #2196f3;
 }
 
 .conditions-link {
