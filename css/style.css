@@ -725,7 +725,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-text-color);
+  fill: #afb1b8;
   background-color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -733,19 +733,15 @@ img {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  color: #fff;
+  fill: #fff;
   background-color: var(--bgc);
 }
 
 .icons-social-media {
   width: 20px;
   height: 20px;
-  fill: currentColor;
 }
 
-.icons-social-media:hover {
-  fill: white;
-}
 /*ПОСТОЯННЫЕ КЛИЕНТЫ*/
 
 .clients-topic {
